@@ -1,0 +1,42 @@
+TO DO:
+Think of a name for the web application.
+
+Functions we need for project - Every User
+
+Login - Every page should have a check to see if the user is logged in, if not it should go to the login screen.
+
+Upload - Upload a pdf file which can then be viewed separately on the main system
+		should also log into an sql table for the "search" part of the system
+			insert into Storage(documentTitle, author, dateOfUpload) values ('lolwut', 'Ross Taylor' , '16-09-2016');
+
+Profile - Should list a page showing information about the person. This can include an email, documents uploaded and reviews this person has made.
+		depending on the user it should have customisation depending on what authorisation level the user is.
+
+Notifications - A page which will tell the user if they have had there document reviewed, need to review a document or any kind of notification they will receive through the system.
+		uploader will be told if review has been made on their document.
+		reviewer will be told if they have been assigned a document to review, or if there permission to review a document is approved or denied.
+		Chairman will be told if they need to assign reviewers to a document. Chairman should also be told if reviews could be unfair with the flagging function.
+		
+Log off - Should return the user to the login screen.
+
+
+Functions we need for project - Reviewers
+
+Search - Searches a table showing all the available pdf's, also listing author and reviewers.
+		clicking this should allow a user to request review rites to this document, along with allowing to read other reviews.
+			select * from Storage where documentTitle = 'lolwut';
+		need to be able to request review access to a document. needs to be approved by a chairman. 
+		need to implement a flagging system for reviews along with a "how much that person knows about this subject" system. (Javascript for loops?)
+		need to be able to create a review providing you have the rites to make a review. text box with upload along with rating and knowledge fields?
+		
+Live chat - A feature that should be on the page of a document, that only the reviewers of that project can access.
+		probably will function similar to the reviews, live chat should refresh itself every few seconds to check for updates.
+			could use an sql table storing comments relevant to a particular document.
+				select comment, timeOfComment from Comments where documentName = 'lolwut';
+			should also be separate view from the main document page, even though it is the chat from that document.
+			
+Functions we need for project - Chairman
+
+Assign reviewers - A list of documents that have no reviewers or not enough should be listed along with drop down bars, which will allow the chairman to assign reviewers
+		should also include a list of reviewers who have requested access to review this document.
+		
