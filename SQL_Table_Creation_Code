@@ -84,11 +84,10 @@ DateOfPost DATE(),
 TimeOfPost TIME(),
 Review VARCHAR(8192),
 Score CHAR(1),
-Expertiese CHAR(1)
+Confidence CHAR(1)
 PRIMARY KEY(ReviewID),
 FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
-FOREIGN KEY(ReviewerID) REFERENCES ConferenceMemberList(UserID),
-FOREIGN KEY(Expertiese) REFERENCES ReviewerExpertiese(Expertiese)
+FOREIGN KEY(ReviewerID) REFERENCES ConferenceMemberList(UserID)
 );
 
 CREATE TABLE CommentStorage(
