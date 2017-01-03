@@ -9,7 +9,7 @@ class Search_model extends CI_Model {
         $this->db->from('members');
         $this->db->like('username',$search_term);
 
-        $query = $this->db->get();
+        $query = $this->db->get('ConferenceList');
 
         return $query->result_array();
     }
