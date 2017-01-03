@@ -16,7 +16,7 @@ class SearchC extends CI_Controller {
 	}
 	public function execute_search()
 	{
-	    $this->load->model('search_model');
+	     $this->load->model('search_model');
 		$search_term = $this->input->post('search');		
 		$data['results'] = $this->search_model->get_results($search_term);				
 		$this->load->view('search_results',$data);
