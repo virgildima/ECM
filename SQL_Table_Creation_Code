@@ -3,7 +3,7 @@ UserID CHAR(5),
 Username VARCHAR(32),
 Email VARCHAR(32),
 Password VARCHAR(32),
-Admin BOOLEAN(),
+Admin CHAR(1),
 PRIMARY KEY(UserID)
 );
 
@@ -11,15 +11,15 @@ CREATE TABLE ConferenceList(
 ConferenceID CHAR(5),
 ConferenceName VARCHAR(32),
 ChairID CHAR(5),
-EndDate DATE(),
+EndDate DATE,
 PRIMARY KEY(ConferenceID),
 FOREIGN KEY(ChairID) REFERENCES UserList(UserID)
 );
 
 CREATE TABLE Deadlines(
 ConferenceID CHAR(5),
-UploadDate DATE(),
-ReviewDate DATE(),
+UploadDate DATE,
+ReviewDate DATE,
 PRIMARY KEY(ConferenceID),
 FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID)
 );
@@ -27,18 +27,16 @@ FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID)
 CREATE TABLE ConferenceTagList(
 ConferenceID CHAR(5),
 Tag VARCHAR(16),
-PRIMARY KEY(ConferenceID),
 FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID)
 );
 
 CREATE TABLE ConferenceMemberList(
 ConferenceID CHAR(5),
 UserID CHAR(5),
-Author BOOLEAN(),
-Reviewer BOOLEAN(),
-Chair BOOLEAN(),
-PRIMARY KEY(ConferenceID, UserID),
-FOREIGN KEY(ConferenceID) REFERENCES ConferenceLIst(ConferenceID),
+Author CHAR(1),
+Reviewer CHAR(1),
+Chair CHAR(1),
+FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID),
 FOREIGN KEY(UserID) REFERENCES UserList(UserID)
 );
 
@@ -48,7 +46,7 @@ UserID CHAR(5),
 Tag VARCHAR(32),
 Expertiese CHAR(1),
 FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID),
-FOREIGN KEY(UserID) REFERENCES ConferenceMEmberList(UserID)
+FOREIGN KEY(UserID) REFERENCES ConferenceMemberList(UserID)
 );
 
 CREATE TABLE DocumentStorage(
@@ -59,32 +57,34 @@ AuthorID CHAR(5),
 ChairID CHAR(5),
 DocumentLocation VARCHAR(64),
 AverageScore CHAR(1),
-PRIMARY KEY(DocumentID, ConferenceID)
+PRIMARY KEY(DocumentID),
+FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID),
+FOREIGN KEY(AuthorID) REFERENCES ConferenceMemberList(UserID),
+FOREIGN KEY(ChairID) REFERENCES ConferenceMemberList(UserID)
 );
 
 CREATE TABLE DocumentTags(
 DocumentID CHAR(5),
 Tag VARCHAR(16),
-FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
-FOREIGN KEY(Tag) REFERENCES ConferenceTagList(Tag)
+FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID)
 );
 
 CREATE TABLE DocumentReviewer(
 DocumentID CHAR(5),
-ReviewID CHAR(5),
+ReviewerID CHAR(5),
 FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
-FOREIGN KEY(ReviewID) REFERENCES ConferenceMemberList(UserID)
+FOREIGN KEY(ReviewerID) REFERENCES ConferenceMemberList(UserID)
 );
 
 CREATE TABLE ReviewStorage(
 ReviewID CHAR(5),
 DocumentID CHAR(5),
 ReviewerID CHAR(5),
-DateOfPost DATE(),
-TimeOfPost TIME(),
+DateOfPost DATE,
+TimeOfPost TIME,
 Review VARCHAR(8192),
 Score CHAR(1),
-Confidence CHAR(1)
+Expertiese CHAR(1),
 PRIMARY KEY(ReviewID),
 FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
 FOREIGN KEY(ReviewerID) REFERENCES ConferenceMemberList(UserID)
@@ -95,8 +95,8 @@ CommentID CHAR(5),
 ReviewID CHAR(5),
 DocumentID CHAR(5),
 UserID CHAR(5),
-DateOfPost DATE(),
-TimeOfPost TIME(),
+DateOfPost DATE,
+TimeOfPost TIME,
 Comment VARCHAR(8192),
 PRIMARY KEY(CommentID),
 FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
@@ -107,8 +107,8 @@ CREATE TABLE ChatStorage(
 ChatID CHAR(5),
 DocumentID CHAR(5),
 UserID CHAR(5),
-DateOfPost DATE(),
-TimeOfPost TIME(),
+DateOfPost DATE,
+TimeOfPost TIME,
 Chat VARCHAR(8192),
 PRIMARY KEY(ChatID),
 FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID),
@@ -120,8 +120,9 @@ ConferenceID CHAR(5),
 Declarer CHAR(5),
 Accused CHAR(5),
 Reason VARCHAR(8192),
-Resolved BOOLEAN(),
+Resolved CHAR(1),
 Action VARCHAR(8192),
 FOREIGN KEY(COnferenceID) REFERENCES ConferenceList(ConferenceID),
-FOREIGN KEY(Declarer, Accused) REFERENCES ConferenceMemberList(UserID, UserID)
+FOREIGN KEY(Declarer) REFERENCES ConferenceMemberList(UserID),
+FOREIGN KEY (Accused) REFERENCES ConferenceMemberList(UserID)
 );
