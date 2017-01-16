@@ -6,7 +6,7 @@ class Search_model extends CI_Model {
     {
     
         $this->db->select('*');
-        $this->db->from('members');
+        $this->db->from('userlist');
         $this->db->like('username',$search_term);
 
         $query = $this->db->get('');
