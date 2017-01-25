@@ -1,0 +1,65 @@
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00001','Admin1','Example_Email_Address','1222','y');
+
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00002','John_Doe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00003','Jane_Doe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00004','Joe_Bloggs','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00005','Richard-Roe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Username,Email,Password,Admin)
+VALUES ('00006','Mister Johnson','Example_Email_Address','1222','n');
+
+INSERT INTO ConferenceList(ConferenceID,ConferenceName,ChairID,EndDate)
+VALUES ('00001','Example_Conference','00002','2017-12-31');
+
+INSERT INTO Deadlines (ConferenceID,UploadDate,ReviewDate)
+VALUES ('00001','2017-10-31','2017-11-30');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('00001','Java');
+
+INSERT INTO ConferenceTagList (ConferneceID,Tag)
+VALUES ('00001','Java');
+
+INSERT INTO ConferenceTagList (ConferneceID,Tag)
+VALUES ('00001','PHP');
+
+INSERT INTO ConferenceTagList (ConferneceID,Tag)
+VALUES ('00001','C++');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('00001','00002','n','n','y');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('00001','00003','y','n','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('00001','00004','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('00001','00005','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('00001','00006','n','y','n');
+
+INSERT INTO DocumentStorage (DocumentID,DocumentTitle,ConferenceID,AuthorID,ChairID,DocumentLocation,AverageScore)
+VALUES ('00001','Java_101','00001','00003','00002','To Be Implemented','To Be Implemented');
+
+INSERT INTO DocumentTags (DocumentID,Tag)
+VALUES ('00001','Java');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewID)
+VALUES ('00001','00004');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewID)
+VALUES ('00001','00005');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewID)
+VALUES ('00001','00006');
