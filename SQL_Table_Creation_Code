@@ -120,7 +120,14 @@ Accused VARCHAR(32),
 Reason VARCHAR(8192),
 Resolved CHAR(1),
 Action VARCHAR(8192),
-FOREIGN KEY(COnferenceID) REFERENCES ConferenceList(ConferenceID),
+FOREIGN KEY(ConferenceID) REFERENCES ConferenceList(ConferenceID),
 FOREIGN KEY(Declarer) REFERENCES ConferenceMemberList(UserID),
 FOREIGN KEY (Accused) REFERENCES ConferenceMemberList(UserID)
+);
+
+CREATE TABLE Preferences(
+ReviewerID VARCHAR(32),
+DocumentID CHAR(5),
+FOREIGN KEY(ReviewerID) REFERENCES ConferenceMemberList(UserID),
+FOREIGN KEY(DocumentID) REFERENCES DocumentStorage(DocumentID)
 );
