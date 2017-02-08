@@ -1,0 +1,143 @@
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('Admin1','Example_Email_Address','1222','y');
+
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('John_Doe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('Jane_Doe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('Joe_Bloggs','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('Richard_Roe','Example_Email_Address','1222','n');
+
+INSERT INTO UserList(UserID,Email,Password,Admin)
+VALUES ('Mister_Johnson','Example_Email_Address','1222','n');
+
+INSERT INTO ConferenceList(ConferenceID,ChairID,EndDate)
+VALUES ('Example_Conference_1','John_Doe','2017-12-31');
+
+INSERT INTO ConferenceList(ConferenceID,ChairID,EndDate)
+VALUES ('Example_Conference_2','Mister_Johnson','2017-11-30');
+
+INSERT INTO Deadlines (ConferenceID,UploadDate,ReviewDate)
+VALUES ('Example_Conference_1','2017-10-31','2017-11-30');
+
+INSERT INTO Deadlines (ConferenceID,UploadDate,ReviewDate)
+VALUES ('Example_Conference_2','2017-09-30','2017-11-31');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_1','Java');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_1','PHP');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_1','C++');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_2','Erlang');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_2','Python');
+
+INSERT INTO ConferenceTagList (ConferenceID,Tag)
+VALUES ('Example_Conference_2','Visual_Basic');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','John_Doe','n','n','y');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','Jane_Doe','y','n','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','Joe_Bloggs','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','Richard_Roe','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','Mister_Johnson','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_2','Mister_Johnson','n','n','y');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_2','Richard_Roe','y','n','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_2','John_Doe','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_2','Jane_Doe','n','y','n');
+
+INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+VALUES ('Example_Conference_2','Joe_Bloggs','n','y','n');
+
+INSERT INTO DocumentStorage (DocumentID,DocumentTitle,ConferenceID,AuthorID,ChairID,DocumentLocation,AverageScore)
+VALUES ('00001','Java_101','Example_Conference_1','Jane_Doe','John_Doe','To Be Implemented','To Be Implemented');
+
+INSERT INTO DocumentStorage (DocumentID,DocumentTitle,ConferenceID,AuthorID,ChairID,DocumentLocation,AverageScore)
+VALUES ('00002','A_Study_On_VisualBasic','Example_Conference_2','Richard_Roe','Mister_Johnson','To Be Implemented','To Be Implemented');
+
+INSERT INTO DocumentTags (DocumentID,Tag)
+VALUES ('00001','Java');
+
+INSERT INTO DocumentTags (DocumentID,Tag)
+VALUES ('00001','Visual_Basic');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00001','Joe_Bloggs');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00001','Richard_Roe');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00001','Mister_Johnson');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00002','John_Doe');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00002','Jane_Doe');
+
+INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
+VALUES ('00002','Joe_Bloggs');
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_1, Joe_Bloggs, Java, 3);
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_1, Richard_Roe, Java, 1);
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_1, Mister_Johnson, Java, 2);
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_2, John_Doe, Visual_Basic, 1);
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_1, Jane_Doe, Visual_Basic, 3);
+
+INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+VALUES ('Example_Conference_1, Joe_Bloggs, Visual_Basic, 2);
+
+INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00001','00001','Joe_Bloggs', CURDATE(), CURTIME(), 'Example_Review_1', '5', '3');
+
+INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00002','00002','Joe_Bloggs', CURDATE(), CURTIME(), 'Example_Review_2', '3', '2');
+
+INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00003','00001','Richard_Roe', CURDATE(), CURTIME(), 'Example_Review_3', '1', '1');
+
+INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00004','00002','Jane_Doe', CURDATE(), CURTIME(), 'Example_Review_4', '1', '3');
+
+INSERT INTO CommentStrorage (CommentID, ReviewID, DocumentID, UserID, DateOfPost, TimeOfPost, Comment)
+VALUES ('00001', '00001', '00001', 'Jane_Doe', CURDATE(), CURTIME(), 'Example_Comment);
+
+INSERT INTO ChatStorage (ChatID, DocumentID, UserID, DateOfPost, TimeOfPost, Chat)
+VALUES ('00001', '00001', 'Joe_Bloggs', CURDATE(), CURTIME(), 'Example_Chat_Message');
