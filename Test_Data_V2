@@ -107,22 +107,22 @@ INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
 VALUES ('00002','Joe_Bloggs');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_1, Joe_Bloggs, Java, 3);
+VALUES ('Example_Conference_1', 'Joe_Bloggs', 'Java', '3');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_1, Richard_Roe, Java, 1);
+VALUES ('Example_Conference_1', 'Richard_Roe', 'Java', '1');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_1, Mister_Johnson, Java, 2);
+VALUES ('Example_Conference_1', 'Mister_Johnson', 'Java', '2');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_2, John_Doe, Visual_Basic, 1);
+VALUES ('Example_Conference_2', 'John_Doe', 'Visual_Basic', '1');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_1, Jane_Doe, Visual_Basic, 3);
+VALUES ('Example_Conference_1', 'Jane_Doe', 'Visual_Basic', '3');
 
 INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
-VALUES ('Example_Conference_1, Joe_Bloggs, Visual_Basic, 2);
+VALUES ('Example_Conference_1', 'Joe_Bloggs', 'Visual_Basic', '2');
 
 INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
 Values ('00001','00001','Joe_Bloggs', CURDATE(), CURTIME(), 'Example_Review_1', '5', '3');
