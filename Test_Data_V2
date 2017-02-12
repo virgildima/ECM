@@ -1,19 +1,19 @@
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('Admin1','Example_Email_Address','1222','y');
 
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('John_Doe','Example_Email_Address','1222','n');
 
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('Jane_Doe','Example_Email_Address','1222','n');
 
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('Joe_Bloggs','Example_Email_Address','1222','n');
 
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('Richard_Roe','Example_Email_Address','1222','n');
 
-INSERT INTO UserList(UserID,Email,Password,Admin)
+INSERT INTO UserList(Username,Email,Password,Admin)
 VALUES ('Mister_Johnson','Example_Email_Address','1222','n');
 
 INSERT INTO ConferenceList(ConferenceID,ChairID,EndDate)
@@ -46,34 +46,34 @@ VALUES ('Example_Conference_2','Python');
 INSERT INTO ConferenceTagList (ConferenceID,Tag)
 VALUES ('Example_Conference_2','Visual_Basic');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_1','John_Doe','n','n','y');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_1','Jane_Doe','y','n','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_1','Joe_Bloggs','n','y','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_1','Richard_Roe','n','y','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_1','Mister_Johnson','n','y','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_2','Mister_Johnson','n','n','y');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_2','Richard_Roe','y','n','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_2','John_Doe','n','y','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_2','Jane_Doe','n','y','n');
 
-INSERT INTO ConferenceMemberList (ConferenceID,UserID,Author,Reviewer,Chair)
+INSERT INTO ConferenceMemberList (ConferenceID,Username,Author,Reviewer,Chair)
 VALUES ('Example_Conference_2','Joe_Bloggs','n','y','n');
 
 INSERT INTO DocumentStorage (DocumentID,DocumentTitle,ConferenceID,AuthorID,ChairID,DocumentLocation,AverageScore)
@@ -106,22 +106,22 @@ VALUES ('00002','Jane_Doe');
 INSERT INTO DocumentReviewer (DocumentID, ReviewerID)
 VALUES ('00002','Joe_Bloggs');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_1', 'Joe_Bloggs', 'Java', '3');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_1', 'Richard_Roe', 'Java', '1');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_1', 'Mister_Johnson', 'Java', '2');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_2', 'John_Doe', 'Visual_Basic', '1');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_1', 'Jane_Doe', 'Visual_Basic', '3');
 
-INSERT INTO ReviewerExpertiese (ConferenceID, UserID, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (ConferenceID, Username, Tag, Expertiese)
 VALUES ('Example_Conference_1', 'Joe_Bloggs', 'Visual_Basic', '2');
 
 INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
@@ -136,8 +136,8 @@ Values ('00003','00001','Richard_Roe', CURDATE(), CURTIME(), 'Example_Review_3',
 INSERT INTO ReviewStorage (ReviewID, DocumentID, ReviewerID, DateOfPost, TimeOfPost, Review, Score, Expertiese)
 Values ('00004','00002','Jane_Doe', CURDATE(), CURTIME(), 'Example_Review_4', '1', '3');
 
-INSERT INTO CommentStrorage (CommentID, ReviewID, DocumentID, UserID, DateOfPost, TimeOfPost, Comment)
-VALUES ('00001', '00001', '00001', 'Jane_Doe', CURDATE(), CURTIME(), 'Example_Comment);
+INSERT INTO CommentStorage (CommentID, ReviewID, DocumentID, Username, DateOfPost, TimeOfPost, Comment)
+VALUES ('00001', '00001', '00001', 'Jane_Doe', CURDATE(), CURTIME(), 'Example_Comment');
 
-INSERT INTO ChatStorage (ChatID, DocumentID, UserID, DateOfPost, TimeOfPost, Chat)
+INSERT INTO ChatStorage (ChatID, DocumentID, Username, DateOfPost, TimeOfPost, Chat)
 VALUES ('00001', '00001', 'Joe_Bloggs', CURDATE(), CURTIME(), 'Example_Chat_Message');
