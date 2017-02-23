@@ -1,7 +1,6 @@
 from gurobipy import *
 import math	
-import pyodbc
-
+import MySQLdb
 
 
 paperType, review = multidict({
