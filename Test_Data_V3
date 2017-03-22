@@ -61,13 +61,13 @@ VALUES ('00001','5');
 INSERT INTO DocumentReviewer (DocumentNum, Reviewer)
 VALUES ('00001','6');
 
-INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (Conference, id, Tag, Expertiese)
 VALUES ('Example_Conference_1', '4', 'Java', '3');
 
-INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (Conference, id, Tag, Expertiese)
 VALUES ('Example_Conference_1', '5', 'Java', '1');
 
-INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+INSERT INTO ReviewerExpertiese (Conference, id, Tag, Expertiese)
 VALUES ('Example_Conference_1', '6', 'Java', '2');
 
 INSERT INTO ReviewStorage (ReviewNum, DocumentNum, Reviewer, DateOfPost, TimeOfPost, Review, Score, Expertiese)
@@ -76,8 +76,8 @@ Values ('00001','00001','4', CURDATE(), CURTIME(), 'Example_Review_1', '5', '3')
 INSERT INTO ReviewStorage (ReviewNum, DocumentNum, Reviewer, DateOfPost, TimeOfPost, Review, Score, Expertiese)
 Values ('00003','00001','5', CURDATE(), CURTIME(), 'Example_Review_3', '1', '1');
 
-INSERT INTO CommentStorage (CommentNum, ReviewNum, DocumentNum, Username, DateOfPost, TimeOfPost, Comment)
+INSERT INTO CommentStorage (CommentNum, ReviewNum, DocumentNum, id, DateOfPost, TimeOfPost, Comment)
 VALUES ('00001', '00001', '00001', '3', CURDATE(), CURTIME(), 'Example_Comment');
 
-INSERT INTO ChatStorage (ChatNum, DocumentNum, Username, DateOfPost, TimeOfPost, Chat)
+INSERT INTO ChatStorage (ChatNum, DocumentNum, id, DateOfPost, TimeOfPost, Chat)
 VALUES ('00001', '00001', '4', CURDATE(), CURTIME(), 'Example_Chat_Message');
