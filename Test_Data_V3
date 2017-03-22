@@ -1,0 +1,83 @@
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('1', 'Admin', 'admin@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_ADMIN', 'Admin');
+
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('2', 'John_Doe', 'JohnDoe@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_CHAIR', 'John Doe');
+
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('3', 'Jane_Doe', 'Jane_Doe@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_AUTHOR', 'Jane Doe');
+
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('4', 'Joe_Bloggs', 'Joe_Bloggs@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_REVIEWER', 'Joe_Bloggs');
+
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('5', 'Richard_Roe', 'Richard_Roe@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_Reviewer', 'Richard Roe');
+
+INSERT INTO user(id, username, email, enabled, password, last_login, roles, real_name)
+VALUES ('6', 'Mister_Johnson', 'Mister_Johnson@kent.ac.uk', 1, MD5('1222'), NULL, 'ROLE_Reviewer', 'Mister Johnson');
+
+INSERT INTO ConferenceList(Conference,Chair,EndDate)
+VALUES ('Example_Conference_1','2','2017-12-31');
+
+INSERT INTO Deadlines (Conference,UploadDate,ReviewDate)
+VALUES ('Example_Conference_1','2017-10-31','2017-11-30');
+
+INSERT INTO ConferenceTagList (Conference,Tag)
+VALUES ('Example_Conference_1','Java');
+
+INSERT INTO ConferenceTagList (Conference,Tag)
+VALUES ('Example_Conference_1','PHP');
+
+INSERT INTO ConferenceTagList (Conference,Tag)
+VALUES ('Example_Conference_1','C++');
+
+INSERT INTO ConferenceMemberList (Conference,id,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','2','n','n','y');
+
+INSERT INTO ConferenceMemberList (Conference,id,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','3','y','n','n');
+
+INSERT INTO ConferenceMemberList (Conference,id,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','4','n','y','n');
+
+INSERT INTO ConferenceMemberList (Conference,id,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','5','n','y','n');
+
+INSERT INTO ConferenceMemberList (Conference,id,Author,Reviewer,Chair)
+VALUES ('Example_Conference_1','6','n','y','n');
+
+INSERT INTO DocumentStorage (DocumentNum,DocumentTitle,Conference,Author,Chair,DocumentLocation,AverageScore)
+VALUES ('00001','Java_101','Example_Conference_1','3','2','To Be Implemented','To Be Implemented');
+
+INSERT INTO DocumentTags (DocumentNum,Tag)
+VALUES ('00001','Java');
+
+INSERT INTO DocumentReviewer (DocumentNum, Reviewer)
+VALUES ('00001','4');
+
+INSERT INTO DocumentReviewer (DocumentNum, Reviewer)
+VALUES ('00001','5');
+
+INSERT INTO DocumentReviewer (DocumentNum, Reviewer)
+VALUES ('00001','6');
+
+INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+VALUES ('Example_Conference_1', '4', 'Java', '3');
+
+INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+VALUES ('Example_Conference_1', '5', 'Java', '1');
+
+INSERT INTO ReviewerExpertiese (Conference, Username, Tag, Expertiese)
+VALUES ('Example_Conference_1', '6', 'Java', '2');
+
+INSERT INTO ReviewStorage (ReviewNum, DocumentNum, Reviewer, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00001','00001','4', CURDATE(), CURTIME(), 'Example_Review_1', '5', '3');
+
+INSERT INTO ReviewStorage (ReviewNum, DocumentNum, Reviewer, DateOfPost, TimeOfPost, Review, Score, Expertiese)
+Values ('00003','00001','5', CURDATE(), CURTIME(), 'Example_Review_3', '1', '1');
+
+INSERT INTO CommentStorage (CommentNum, ReviewNum, DocumentNum, Username, DateOfPost, TimeOfPost, Comment)
+VALUES ('00001', '00001', '00001', '3', CURDATE(), CURTIME(), 'Example_Comment');
+
+INSERT INTO ChatStorage (ChatNum, DocumentNum, Username, DateOfPost, TimeOfPost, Chat)
+VALUES ('00001', '00001', '4', CURDATE(), CURTIME(), 'Example_Chat_Message');
