@@ -1,0 +1,142 @@
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL UNIQUE KEY,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL UNIQUE KEY,
+  `enabled` tinyint(1) NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `last_login` datetime DEFAULT NULL,
+  `roles` longtext COLLATE utf8_unicode_ci NOT NULL COMMENT '(DC2Type:array)',
+  `real_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE IF NOT EXISTS `conferences` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `creator` int(11) NOT NULL,
+  `end_date` date NOT NULL,
+  INDEX(`id`,`creator`),
+  PRIMARY KEY (`id`),
+  CONSTRAINT FOREIGN KEY (`creator`) REFERENCES user(`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `conference_member` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `conference_id` int(11) NOT NULL,
+  `member_id` int(11) NOT NULL,
+  `is_author` tinyint(1) NOT NULL,
+  `is_reviewer` tinyint(1) NOT NULL,
+  `is_chair` tinyint(1) NOT NULL,
+  INDEX(`id`,`conference_id`,`member_id`),
+  PRIMARY KEY (`id`),
+  CONSTRAINT FOREIGN KEY (`conference_id`) REFERENCES conferences(`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT FOREIGN KEY (`member_id`) REFERENCES user(`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE Deadlines(
+Conference int(11),
+UploadDate DATE,
+ReviewDate DATE,
+PRIMARY KEY(Conference),
+FOREIGN KEY(Conference) REFERENCES conferences(id)
+);
+
+CREATE TABLE ConferenceTagList(
+Conference int(11),
+Tag VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL,
+FOREIGN KEY(Conference) REFERENCES conferences(id)
+);
+
+CREATE TABLE ReviewerExpertiese(
+Conference int(11),
+Reviewer int(11),
+Tag VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL,
+Expertiese CHAR(1),
+FOREIGN KEY(Conference) REFERENCES conferences(id),
+FOREIGN KEY(Reviewer) REFERENCES conference_member(id)
+);
+
+CREATE TABLE DocumentStorage(
+DocumentNum CHAR(5),
+DocumentTitle VARCHAR(32),
+Conference int(11),
+Author int(11),
+Chair int(11),
+DocumentLocation VARCHAR(64),
+AverageScore CHAR(1),
+PRIMARY KEY(DocumentNum),
+FOREIGN KEY(Conference) REFERENCES conferences(id),
+FOREIGN KEY(Author) REFERENCES conference_member(id),
+FOREIGN KEY(Chair) REFERENCES conference_member(id)
+);
+
+CREATE TABLE DocumentTags(
+DocumentNum VARCHAR(32),
+Tag VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL,
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum)
+);
+
+CREATE TABLE DocumentReviewer(
+DocumentNum VARCHAR(32),
+Reviewer int(11),
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum),
+FOREIGN KEY(Reviewer) REFERENCES conference_member(id)
+);
+
+CREATE TABLE ReviewStorage(
+ReviewNum CHAR(5),
+DocumentNum CHAR(5),
+Reviewer int(11),
+DateOfPost DATE,
+TimeOfPost TIME,
+Review VARCHAR(8192),
+Score CHAR(1),
+Expertiese CHAR(1),
+PRIMARY KEY(ReviewNum),
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum),
+FOREIGN KEY(Reviewer) REFERENCES conference_member(id)
+);
+
+CREATE TABLE CommentStorage(
+CommentNum CHAR(5),
+ReviewNum CHAR(5),
+DocumentNum CHAR(5),
+id int(11),
+DateOfPost DATE,
+TimeOfPost TIME,
+Comment VARCHAR(8192),
+PRIMARY KEY(CommentNum),
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum),
+FOREIGN KEY(id) REFERENCES conference_member(id)
+);
+
+CREATE TABLE ChatStorage(
+ChatNum CHAR(5),
+DocumentNum CHAR(5),
+id int(11),
+DateOfPost DATE,
+TimeOfPost TIME,
+Chat VARCHAR(8192),
+PRIMARY KEY(ChatNum),
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum),
+FOREIGN KEY(id) REFERENCES conference_member(id)
+);
+
+CREATE TABLE Conflict(
+Conference int(11),
+DocumentNum VARCHAR(5),
+Declarer int(11),
+Accused int(11),
+Reason VARCHAR(8192),
+Resolved CHAR(1),
+Action VARCHAR(8192),
+FOREIGN KEY(Conference) REFERENCES conferences(id),
+FOREIGN KEY(Declarer) REFERENCES conference_member(id),
+FOREIGN KEY (Accused) REFERENCES conference_member(id)
+);
+
+CREATE TABLE Preferences(
+Reviewer int(11),
+DocumentNum CHAR(5),
+FOREIGN KEY(Reviewer) REFERENCES conference_member(id),
+FOREIGN KEY(DocumentNum) REFERENCES DocumentStorage(DocumentNum)
+);
