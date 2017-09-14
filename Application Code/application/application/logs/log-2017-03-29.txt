@@ -1,0 +1,924 @@
+DEBUG - 2017-03-29 01:17:51 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:17:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:17:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:17:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:17:51 --> Total execution time: 0.2141
+DEBUG - 2017-03-29 01:17:56 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:17:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:17:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:17:56 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:17:56 --> Total execution time: 0.1798
+DEBUG - 2017-03-29 01:25:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:25:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:25:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:25:36 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 01:25:36 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 01:25:36 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 01:25:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:25:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:25:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:25:37 --> Total execution time: 0.1660
+DEBUG - 2017-03-29 01:25:50 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:25:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 01:25:50 --> 404 Page Not Found: Conference/conflict
+DEBUG - 2017-03-29 01:26:06 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:26:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:26:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:26:06 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:26:06 --> Total execution time: 0.1825
+DEBUG - 2017-03-29 01:26:24 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:26:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:26:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:26:24 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:26:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:26:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:26:36 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:26:36 --> Total execution time: 0.1835
+DEBUG - 2017-03-29 01:26:54 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:26:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:26:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:26:54 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:26:54 --> Total execution time: 0.1877
+DEBUG - 2017-03-29 01:26:58 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:26:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:26:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:26:58 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:26:58 --> Total execution time: 0.1843
+DEBUG - 2017-03-29 01:28:27 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:28:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:28:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:28:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:28:27 --> Total execution time: 0.1901
+DEBUG - 2017-03-29 01:28:41 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:28:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:28:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:28:41 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:30:04 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:30:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:30:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:30:04 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 01:30:04 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\ci\application\controllers\ConferenceController.php 247
+DEBUG - 2017-03-29 01:30:50 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:30:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:30:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:30:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 01:31:09 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 01:31:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 01:31:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 01:31:09 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:10:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:10:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:10:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:10:18 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:10:18 --> Total execution time: 0.1972
+DEBUG - 2017-03-29 02:11:28 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:11:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:11:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:11:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:11:32 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:11:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:11:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:11:32 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:11:32 --> Total execution time: 0.1928
+DEBUG - 2017-03-29 02:11:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:11:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:11:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:11:36 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:11:40 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:11:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:11:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:11:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:11:40 --> Total execution time: 0.1825
+DEBUG - 2017-03-29 02:13:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:13:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:13:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:13:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:13:12 --> Total execution time: 0.2385
+DEBUG - 2017-03-29 02:30:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:30:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:30:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:30:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:30:12 --> Total execution time: 0.3126
+DEBUG - 2017-03-29 02:32:21 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:32:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 02:32:21 --> 404 Page Not Found: Conference/conference
+DEBUG - 2017-03-29 02:32:25 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:32:25 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 02:32:25 --> 404 Page Not Found: Conference/conference
+DEBUG - 2017-03-29 02:32:28 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:32:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:32:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:32:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:32:28 --> Total execution time: 0.1907
+DEBUG - 2017-03-29 02:32:32 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:32:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:32:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:32:32 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:32:32 --> Total execution time: 0.5820
+DEBUG - 2017-03-29 02:35:20 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:35:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:35:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:35:20 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:35:20 --> Total execution time: 0.1835
+DEBUG - 2017-03-29 02:35:28 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:35:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:35:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:35:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:35:28 --> Total execution time: 0.1933
+DEBUG - 2017-03-29 02:36:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:36:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:36:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:36:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:36:08 --> Total execution time: 0.1932
+DEBUG - 2017-03-29 02:36:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:36:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:36:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:36:18 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:36:18 --> Total execution time: 0.2246
+DEBUG - 2017-03-29 02:36:27 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:36:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:36:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:36:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:36:27 --> Total execution time: 0.2124
+DEBUG - 2017-03-29 02:37:54 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:37:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:37:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:37:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:37:55 --> Total execution time: 0.9843
+DEBUG - 2017-03-29 02:42:04 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:42:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:42:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:42:04 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:42:04 --> Total execution time: 0.1851
+DEBUG - 2017-03-29 02:52:23 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:52:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:52:23 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:52:23 --> Total execution time: 0.2049
+DEBUG - 2017-03-29 02:52:25 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:52:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:52:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:52:25 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:52:25 --> Total execution time: 0.1763
+DEBUG - 2017-03-29 02:52:35 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:52:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:52:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:52:35 --> Total execution time: 0.1895
+DEBUG - 2017-03-29 02:52:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:52:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:52:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:52:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:52:38 --> Total execution time: 0.2414
+DEBUG - 2017-03-29 02:54:15 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:54:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:54:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:54:15 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:54:15 --> Total execution time: 0.1884
+DEBUG - 2017-03-29 02:54:17 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:54:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:54:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:54:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:54:17 --> Total execution time: 0.1747
+DEBUG - 2017-03-29 02:54:37 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:54:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:54:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:54:37 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:54:37 --> Total execution time: 0.1868
+DEBUG - 2017-03-29 02:54:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:54:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:54:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:54:39 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:54:39 --> Total execution time: 0.1772
+DEBUG - 2017-03-29 02:55:42 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:55:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:55:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:55:42 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:55:42 --> Total execution time: 0.2771
+DEBUG - 2017-03-29 02:56:01 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 02:56:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 02:56:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 02:56:01 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 02:56:01 --> Total execution time: 0.1854
+DEBUG - 2017-03-29 03:16:39 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 03:16:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 03:16:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 03:16:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 03:16:41 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 03:16:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 03:16:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 03:16:41 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 03:16:41 --> Total execution time: 0.2637
+DEBUG - 2017-03-29 04:47:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:47:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:47:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:47:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:47:43 --> Total execution time: 0.2942
+DEBUG - 2017-03-29 04:48:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:48:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:48:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:48:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:48:38 --> Total execution time: 0.2042
+DEBUG - 2017-03-29 04:48:41 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:48:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:48:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:48:41 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:48:41 --> Total execution time: 0.1838
+DEBUG - 2017-03-29 04:48:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:48:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:48:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:48:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:48:44 --> Total execution time: 0.2242
+DEBUG - 2017-03-29 04:52:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:52:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:52:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:52:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:52:12 --> Total execution time: 0.1940
+DEBUG - 2017-03-29 04:52:13 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:52:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:52:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:52:13 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:52:13 --> Total execution time: 0.1814
+DEBUG - 2017-03-29 04:52:16 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 04:52:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 04:52:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 04:52:16 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 04:52:16 --> Total execution time: 0.1800
+DEBUG - 2017-03-29 05:01:31 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:31 --> Total execution time: 0.2637
+DEBUG - 2017-03-29 05:01:32 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:32 --> Total execution time: 0.1923
+DEBUG - 2017-03-29 05:01:33 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:34 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 05:01:34 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 05:01:34 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 05:01:34 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:34 --> Total execution time: 0.1751
+DEBUG - 2017-03-29 05:01:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:36 --> Total execution time: 0.1709
+DEBUG - 2017-03-29 05:01:36 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:01:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:01:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:01:37 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 05:01:37 --> Total execution time: 0.2384
+DEBUG - 2017-03-29 05:03:37 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:03:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:03:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:03:37 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 05:03:37 --> Total execution time: 0.1835
+DEBUG - 2017-03-29 05:03:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:03:38 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 05:03:38 --> 404 Page Not Found: Conference/conference
+DEBUG - 2017-03-29 05:03:39 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:03:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:03:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:03:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 05:03:40 --> Total execution time: 0.1800
+DEBUG - 2017-03-29 05:03:44 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:03:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:03:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:03:44 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 05:03:44 --> Total execution time: 0.1787
+DEBUG - 2017-03-29 05:03:46 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 05:03:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 05:03:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 05:03:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 05:03:46 --> Total execution time: 0.1775
+DEBUG - 2017-03-29 14:50:56 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:50:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:50:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:50:57 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:50:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:50:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:50:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 14:50:57 --> Total execution time: 0.0640
+DEBUG - 2017-03-29 14:51:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:51:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:51:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:51:08 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:51:08 --> Severity: Notice --> unserialize(): Error at offset 0 of 10 bytes C:\xampp\htdocs\ci\application\models\User.php 112
+ERROR - 2017-03-29 14:51:08 --> Severity: 4096 --> Argument 1 passed to User::setRoles() must be of the type array, boolean given, called in C:\xampp\htdocs\ci\application\models\User.php on line 114 and defined C:\xampp\htdocs\ci\application\models\User.php 75
+DEBUG - 2017-03-29 14:51:08 --> Got User
+DEBUG - 2017-03-29 14:51:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:51:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:51:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:51:08 --> Total execution time: 0.0773
+DEBUG - 2017-03-29 14:51:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:51:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:51:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:51:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:51:23 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:51:23 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:51:23 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:51:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:51:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:51:23 --> Total execution time: 0.0660
+DEBUG - 2017-03-29 14:51:24 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:51:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:51:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:51:24 --> Total execution time: 0.0599
+DEBUG - 2017-03-29 14:55:19 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:19 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:19 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:19 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:19 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:19 --> Total execution time: 0.0762
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Total execution time: 0.0822
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Total execution time: 0.0627
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Total execution time: 0.0770
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Total execution time: 0.0652
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Total execution time: 0.0563
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:22 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:23 --> Total execution time: 0.0588
+DEBUG - 2017-03-29 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:23 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:55:23 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:55:23 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:55:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:55:23 --> Total execution time: 0.0579
+DEBUG - 2017-03-29 14:56:45 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:56:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:56:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2017-03-29 14:56:45 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\views\includes\sidebar.php 14
+DEBUG - 2017-03-29 14:56:45 --> Total execution time: 0.0628
+DEBUG - 2017-03-29 14:58:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:58:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:58:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:58:18 --> Total execution time: 0.0699
+DEBUG - 2017-03-29 14:58:20 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:58:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:58:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:58:20 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 14:58:20 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 14:58:20 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 14:58:20 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 14:58:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 14:58:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 14:58:20 --> Total execution time: 0.0543
+DEBUG - 2017-03-29 15:02:58 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:02:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:02:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:02:58 --> Total execution time: 0.0747
+DEBUG - 2017-03-29 15:03:00 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:00 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:00 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:00 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:00 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:00 --> Total execution time: 0.0816
+DEBUG - 2017-03-29 15:03:01 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:01 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:01 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:01 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:01 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:01 --> Total execution time: 0.0651
+DEBUG - 2017-03-29 15:03:03 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:03 --> Total execution time: 0.0669
+DEBUG - 2017-03-29 15:03:05 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:05 --> Total execution time: 0.0655
+DEBUG - 2017-03-29 15:03:07 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:07 --> Total execution time: 0.0602
+DEBUG - 2017-03-29 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:08 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:08 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:08 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:08 --> Total execution time: 0.0612
+DEBUG - 2017-03-29 15:03:37 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:37 --> Total execution time: 0.0689
+DEBUG - 2017-03-29 15:03:39 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:39 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:39 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:39 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:39 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:39 --> Total execution time: 0.0705
+DEBUG - 2017-03-29 15:03:40 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:40 --> Total execution time: 0.0698
+DEBUG - 2017-03-29 15:03:42 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:42 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:42 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:42 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:42 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:42 --> Total execution time: 0.0632
+DEBUG - 2017-03-29 15:03:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:43 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:03:43 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:03:43 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:03:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:43 --> Total execution time: 0.0640
+DEBUG - 2017-03-29 15:03:59 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:03:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:03:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:03:59 --> Total execution time: 0.1568
+DEBUG - 2017-03-29 15:05:02 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:02 --> Total execution time: 0.0766
+DEBUG - 2017-03-29 15:05:04 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:04 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:05:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:05:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:05:04 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:04 --> Total execution time: 0.0733
+DEBUG - 2017-03-29 15:05:06 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:06 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:05:06 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:05:06 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:05:06 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:06 --> Total execution time: 0.0719
+DEBUG - 2017-03-29 15:05:07 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:07 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:05:07 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:05:07 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:05:07 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:08 --> Total execution time: 0.0651
+DEBUG - 2017-03-29 15:05:09 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:09 --> Total execution time: 0.0697
+DEBUG - 2017-03-29 15:05:10 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:10 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:05:10 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:05:10 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:05:10 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:05:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:05:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:05:10 --> Total execution time: 0.0702
+DEBUG - 2017-03-29 15:16:41 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:41 --> Total execution time: 0.0905
+DEBUG - 2017-03-29 15:16:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:43 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:16:43 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:16:43 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:16:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:43 --> Total execution time: 0.0572
+DEBUG - 2017-03-29 15:16:45 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:45 --> Total execution time: 0.0725
+DEBUG - 2017-03-29 15:16:46 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:46 --> Total execution time: 0.0601
+DEBUG - 2017-03-29 15:16:48 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:48 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:16:48 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:16:48 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:16:48 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:16:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:16:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:16:48 --> Total execution time: 0.0659
+DEBUG - 2017-03-29 15:18:09 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:18:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:18:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:18:09 --> Total execution time: 0.0695
+DEBUG - 2017-03-29 15:18:11 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:18:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:18:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:18:11 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:18:11 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:18:11 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:18:11 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:18:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:18:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:18:11 --> Total execution time: 0.0654
+DEBUG - 2017-03-29 15:18:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:18:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:18:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:18:12 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:18:12 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:18:12 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:18:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:18:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:18:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:18:12 --> Total execution time: 0.0612
+DEBUG - 2017-03-29 15:21:33 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:21:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:21:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:21:33 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:21:33 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+ERROR - 2017-03-29 15:21:33 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\RoleController.php 37
+DEBUG - 2017-03-29 15:21:33 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:21:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:21:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:21:33 --> Total execution time: 0.0670
+DEBUG - 2017-03-29 15:21:34 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:21:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 15:21:34 --> 404 Page Not Found: Conference/conference_view
+DEBUG - 2017-03-29 15:21:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:21:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:21:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:21:39 --> Total execution time: 0.1035
+DEBUG - 2017-03-29 15:25:04 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:25:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:25:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:25:04 --> Total execution time: 0.1186
+DEBUG - 2017-03-29 15:25:06 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:25:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:25:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:25:06 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:25:06 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 25
+ERROR - 2017-03-29 15:25:06 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 30
+DEBUG - 2017-03-29 15:25:06 --> Total execution time: 0.1914
+DEBUG - 2017-03-29 15:34:35 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:34:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:34:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:34:36 --> Total execution time: 0.1538
+DEBUG - 2017-03-29 15:34:38 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:34:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:34:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:34:38 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:34:38 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 25
+ERROR - 2017-03-29 15:34:38 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 30
+DEBUG - 2017-03-29 15:34:38 --> Total execution time: 0.1863
+DEBUG - 2017-03-29 15:34:43 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:34:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:34:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:34:43 --> Total execution time: 0.0987
+DEBUG - 2017-03-29 15:34:45 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:34:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:34:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:34:45 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:34:45 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 25
+ERROR - 2017-03-29 15:34:45 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\models\conferences.php 30
+DEBUG - 2017-03-29 15:34:45 --> Total execution time: 0.1044
+DEBUG - 2017-03-29 15:38:17 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:38:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:38:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:38:17 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:38:17 --> Severity: Notice --> Undefined property: stdClass::$topic C:\xampp\htdocs\ci\application\views\conference\conference_view.php 29
+DEBUG - 2017-03-29 15:38:17 --> Total execution time: 0.2238
+DEBUG - 2017-03-29 15:53:13 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:53:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:53:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:53:13 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:53:13 --> Severity: Notice --> Undefined property: stdClass::$Tag C:\xampp\htdocs\ci\application\views\conference\conference_view.php 29
+DEBUG - 2017-03-29 15:53:13 --> Total execution time: 0.0873
+DEBUG - 2017-03-29 15:53:14 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:53:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:53:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:53:14 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:53:14 --> Severity: Notice --> Undefined property: stdClass::$Tag C:\xampp\htdocs\ci\application\views\conference\conference_view.php 29
+DEBUG - 2017-03-29 15:53:14 --> Total execution time: 0.1602
+DEBUG - 2017-03-29 15:53:16 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:53:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:53:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:53:16 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:53:16 --> Severity: Notice --> Undefined property: stdClass::$Tag C:\xampp\htdocs\ci\application\views\conference\conference_view.php 29
+DEBUG - 2017-03-29 15:53:16 --> Total execution time: 0.0767
+DEBUG - 2017-03-29 15:53:21 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 15:53:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 15:53:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 15:53:21 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2017-03-29 15:53:21 --> Severity: Notice --> Undefined property: stdClass::$Tag C:\xampp\htdocs\ci\application\views\conference\conference_view.php 29
+DEBUG - 2017-03-29 15:53:21 --> Total execution time: 0.0902
+DEBUG - 2017-03-29 16:14:48 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:14:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:14:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:14:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:14:48 --> Total execution time: 0.0846
+DEBUG - 2017-03-29 16:14:57 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:14:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:14:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:14:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:14:57 --> Total execution time: 0.0839
+DEBUG - 2017-03-29 16:15:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:15:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:15:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:15:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:15:12 --> Total execution time: 0.1476
+DEBUG - 2017-03-29 16:15:55 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:15:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:15:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:15:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:15:56 --> Total execution time: 0.1540
+DEBUG - 2017-03-29 16:17:15 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:15 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:15 --> Total execution time: 0.1027
+DEBUG - 2017-03-29 16:17:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2017-03-29 16:17:18 --> Severity: Warning --> in_array() expects parameter 2 to be array, boolean given C:\xampp\htdocs\ci\application\controllers\AdminController.php 38
+DEBUG - 2017-03-29 16:17:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:18 --> Total execution time: 0.0565
+DEBUG - 2017-03-29 16:17:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:23 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:23 --> Total execution time: 0.1144
+DEBUG - 2017-03-29 16:17:51 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:51 --> Total execution time: 0.0912
+DEBUG - 2017-03-29 16:17:53 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:53 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:53 --> Total execution time: 0.0665
+DEBUG - 2017-03-29 16:17:55 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:55 --> Total execution time: 0.1343
+DEBUG - 2017-03-29 16:17:57 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:57 --> Total execution time: 0.0784
+DEBUG - 2017-03-29 16:17:59 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:17:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:17:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:17:59 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:17:59 --> Total execution time: 0.1325
+DEBUG - 2017-03-29 16:18:27 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:18:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:18:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:18:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:18:31 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:18:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:18:31 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:18:31 --> Total execution time: 0.0893
+DEBUG - 2017-03-29 16:19:08 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:19:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:19:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:19:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:19:12 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:19:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:19:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:19:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:19:13 --> Total execution time: 0.1115
+DEBUG - 2017-03-29 16:20:03 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:20:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:20:03 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:20:03 --> Total execution time: 0.0698
+DEBUG - 2017-03-29 16:20:14 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:20:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:20:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:20:14 --> Total execution time: 0.0786
+DEBUG - 2017-03-29 16:20:17 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:20:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:20:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:20:17 --> Total execution time: 0.0863
+DEBUG - 2017-03-29 16:20:22 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:20:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:20:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:20:22 --> Total execution time: 0.0710
+DEBUG - 2017-03-29 16:20:28 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 16:20:28 --> 404 Page Not Found: Conference/conflicts
+DEBUG - 2017-03-29 16:20:31 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:20:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:20:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:20:31 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:20:31 --> Total execution time: 0.1239
+DEBUG - 2017-03-29 16:21:32 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:21:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 16:21:32 --> 404 Page Not Found: Conference/conflicts
+DEBUG - 2017-03-29 16:21:34 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:21:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:21:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:21:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:21:35 --> Total execution time: 0.1073
+DEBUG - 2017-03-29 16:22:13 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 16:22:13 --> 404 Page Not Found: Conference/conflicts
+DEBUG - 2017-03-29 16:22:16 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:17 --> Total execution time: 0.0831
+DEBUG - 2017-03-29 16:22:21 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:21 --> Total execution time: 0.1302
+DEBUG - 2017-03-29 16:22:24 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:25 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:25 --> Total execution time: 0.0847
+DEBUG - 2017-03-29 16:22:28 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:28 --> Total execution time: 0.0747
+DEBUG - 2017-03-29 16:22:29 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:29 --> Total execution time: 0.1424
+DEBUG - 2017-03-29 16:22:31 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:31 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:31 --> Total execution time: 0.0829
+DEBUG - 2017-03-29 16:22:44 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:45 --> Total execution time: 0.0792
+DEBUG - 2017-03-29 16:22:49 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-03-29 16:22:49 --> 404 Page Not Found: Conference/conflicts
+DEBUG - 2017-03-29 16:22:52 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:22:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:22:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:22:52 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:22:52 --> Total execution time: 0.1189
+DEBUG - 2017-03-29 16:30:15 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:30:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:30:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:30:15 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:30:15 --> Total execution time: 0.0798
+DEBUG - 2017-03-29 16:30:18 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:30:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:30:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:30:18 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:30:18 --> Total execution time: 0.0685
+DEBUG - 2017-03-29 16:30:20 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:30:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:30:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:30:20 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:30:20 --> Total execution time: 0.0635
+DEBUG - 2017-03-29 16:30:26 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:30:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:30:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:30:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:30:26 --> Total execution time: 0.1518
+DEBUG - 2017-03-29 16:30:40 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:30:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:30:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:30:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:30:40 --> Total execution time: 0.0955
+DEBUG - 2017-03-29 16:32:54 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:32:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:32:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:32:54 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:32:54 --> Total execution time: 0.0855
+DEBUG - 2017-03-29 16:35:59 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:35:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:36:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:36:00 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:36:00 --> Total execution time: 0.7592
+DEBUG - 2017-03-29 16:36:11 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:36:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:36:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:36:11 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:36:11 --> Total execution time: 0.1076
+DEBUG - 2017-03-29 16:36:24 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:36:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:36:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:36:24 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:36:24 --> Total execution time: 0.0687
+DEBUG - 2017-03-29 16:36:25 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:36:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:36:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:36:25 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:36:26 --> Total execution time: 0.0809
+DEBUG - 2017-03-29 16:40:46 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:40:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:40:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:40:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:40:46 --> Total execution time: 0.1118
+DEBUG - 2017-03-29 16:40:49 --> UTF-8 Support Enabled
+DEBUG - 2017-03-29 16:40:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-03-29 16:40:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-03-29 16:40:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-03-29 16:40:49 --> Total execution time: 0.0881
